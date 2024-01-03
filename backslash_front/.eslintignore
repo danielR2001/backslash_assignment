@@ -1,0 +1,7 @@
+webpack.config.js
+.eslintrc.js
+/public/**
+/build/**
+/node_modules/**
+**/*.d.ts
+src/assets

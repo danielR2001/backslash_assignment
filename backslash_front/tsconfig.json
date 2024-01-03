@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": false,
+    "jsx": "react-jsx",
+    "baseUrl": "src",
+    "noImplicitOverride": true,
+    "paths": {
+      "@mui/styled-engine": ["./node_modules/@mui/styled-engine-sc"],
+      "@assets/*": ["./assets/*"],
+      "@components/*": ["./components/*"],
+      "@constants/*": ["./common/constants/*"],
+      "@my-types/*": ["./common/types/*"],
+      "@utils/*": ["./common/utils/*"],
+      "@pages/*": ["./pages/*"],
+      "@state/*": ["./state/*"],
+      "@theme/*": ["./theme/*"],
+      "@store/*": ["./store/*"],
+      "@queries/*": ["./queries/*"],
+      "@models/*": ["./models/*"]
+    }
+  },
+  "include": ["src"]
+}

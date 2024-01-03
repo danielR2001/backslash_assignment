@@ -1,0 +1,20 @@
+{
+  "presets": ["@babel/env", "@babel/preset-typescript"],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "alias": {
+          "@db": "./build/db",
+          "@controllers": "./build/controllers",
+          "@middlewares": "./build/middlewares",
+          "@models": "./build/models",
+          "@routes": "./build/routes",
+          "@services": "./build/services",
+          "@my-types": "./build/common/types",
+          "@utils": "./build/common/utils"
+        }
+      }
+    ]
+  ]
+}

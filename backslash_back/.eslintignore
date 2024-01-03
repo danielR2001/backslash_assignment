@@ -1,0 +1,6 @@
+.eslintrc.js
+/public/**
+/build/**
+/node_modules/**
+/tests
+jest.config.js
